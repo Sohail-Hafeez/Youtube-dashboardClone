@@ -1,2 +1,3 @@
 # Youtube-dashboardClone
-the clone of first dashboaard of youtube by using HTML and CSS
+After going through HTML and CSS. Every thing seems mixed up. There were a lot of properties of CSS which are difficult o memorize(you just donot need that start making some thing and leave the rest on your muscle memory). Then I randomly opend youtube and dicided to make its front page/dashboard using HTML and CSS. I enjoyed alot and also explore some new things like cdnjs and font awesome to grab free super awesome icons and i also got clarity in the concept of flex as it is bit tricky concept but as you set down to make a project it becomes really easy.
+any one who is just starting its journey in web dev can view my work for that just copy the whole youtube folder in vs code and then run the youtube.html file and it will work fine.  
