@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Times new Roman', Courier, monospace;
+    color: white;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(12, 12, 12);          
+}
+.youtubeLogo{
+    background-image: url("youtube.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 100%;
+}
+#icon{
+    color: white;
+    font-size: larger;
+    background-color:#47464688 ; 
+}
+.navSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 48px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px;
+    box-shadow: 0px 0px 1px 0.1px rgb(246, 249, 253);
+}
+input{
+    height: 50px;
+    width: 100%;
+    background-color: #121212;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.searchIcon{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    color: white;
+}
+.micIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47464688;
+    color: white;
+}
+.plusIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: #47464688;
+}
+.plusIcon i{
+    margin-left: 10px;
+}
+.plusIcon h3{
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+}
+.account{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    background-color: #0a7070;
+    overflow: hidden;
+    border-radius: 50%;
+    color: white;
+}
+.bellIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47464688;
+}
+
+.mainBody{
+    width: 100vw;
+    height: 10000px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space;
+    max-height: 89vh;
+    overflow: auto;
+    background-color: rgb(12, 12, 12);
+}
+.sideBar{
+    width: 100px;
+    height: 80vh;
+    margin: 5px;
+    display: block;
+}
+.content{
+    width: 100%;
+    height: 2000px;
+    margin: 10px;
+    display: block;
+    max-height: 83vh;
+    overflow: auto;
+}
+.headings{
+    width: 100%;
+    height: 50px;
+    margin: 2px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.block{
+    display:  block;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+    margin: 3px;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: small;
+}
+.block:hover{
+    background-color: #47464688;
+}
+.headBlock{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    margin: 5px;
+    border-radius: 15px;
+}
+.headBlock h3{
+    font-size: 17px;
+    font-weight: 500;
+    background:transparent;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bo{
+    width: 23%;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#s1{
+    background-image: url("S1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#s2{
+    background-image: url("S2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#s3{
+    background-image: url("S3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#s4{
+    background-image: url("S4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#box1{
+    background-image: url("box1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#box2{
+    background-image: url("box2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#box3{
+    background-image: url("box3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#box4{
+    background-image: url("box4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#box5{
+    background-image: url("box5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+#box6{
+    background-image: url("box6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.boxy{
+    width: 30%;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+.boy{
+    width: 22%;
+    height: 150x;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    justify-content: flex-start;
+}
+.content-clips{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logo1{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url("logo1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+.logo2{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url("logo2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+.logo3{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url("logo3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+.logo4{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url("logo4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+.logo5{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url("logo5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+.desc1{
+    display: block;
+    margin: 2px 8px 8px 15px;
+}
+#boxy1{
+    background: transparent;
+}
+.about{
+    color: #c6c9c9be;
+    
+}
